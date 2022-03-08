@@ -1,1 +1,166 @@
-https://docs.google.com/document/d/1VO8bUn-RbgmZOPSlljm6nyqouI7t2-1we-2w2NkYSOE/edit
+Salut, dans cette partie je vais t’expliquer tout ce que tu dois savoir sur le système de magie. Si tu as des questions n’hésite  pas à me contacter.
+
+
+
+
+Le but de la magie, c’est de rajouter une nouvelle façon de pvp et ce sera la plus grosse nouveauté qui nous permettra de nous différencier des autres serveurs. On souhaite que les sorts soit obtenable de plusieurs façons en farmant, pvp ou en minant. 
+
+
+✔ À savoir: Pour changer les sort il faut faire sneak+ toucher et ça doit changer le sort. 
+
+✔ Le mana, c’est l’énergie de tout bon sorcier , les joueurs de base auront 100 points de mana. Pour avoir le mana, ils peuvent avoir de façon automatique  à chaque 5 minutes ils reçoivent 20 points de mana ou ils pourront boire des potions de mana. 
+
+La source de mana sera dans un donjon, les joueurs pourront faire clique gauche sur la source pour obtenir une potion de mana et ensuite ils pourront la boire.  Ça va donner 5 points de mana.
+
+Commande ADMIN 
+
+- /manaset pos1-pos2 (en gros ça va remplacer la source d’eau par une source de mana)
+
+
+
+
+
+Comment obtenir les sorts?
+Pour obtenir les sorts, il y aura un système de points de sorts. Le système est simple, les joueurs devront miner/farmer/pvp et ils vont obtenir des pierres de magie. En gros, il y aura un système de pourcentage lorsque les joueurs vont crafter les plantations et miner. Ils vont obtenir des points de magie, la même chose pour le pvp. Par exemple, il y aura une pierre de magie pour farm et le pvp puis ils devront échanger leur pierre de magie contre les pnjs respectifs. Ce qui fait que les joueurs farm, n’auront pas tous les sorts et les joueurs pvp aussi. 
+
+
+À partir d’un certain nombre de points de magie, ils devront voir un sorcier (pnj) ou ils  pourront échanger leur pièrre magie  contre des sorts. 
+
+Par exemple, si j’ai des pierres de magie farming, je vais voir un sorcier  (pnj) qui va me changer les pierres de magie contre des sorts. Les joueurs lorsqu’ils vont cliquer sur le pnj, il aura trois sorts de trois classes différentes genre un sort de tier 1 , de tier 2 et tier 3 qu’il ne vont pas connaître le nom (à peu près le principe de table d’enchantement). Puis ils pourront acheter avec leur point de magie.
+
+Les sorciers vont donner un un livre magique contenant le sort et ils pourront améliorer grâce à la table magique leur sort. 
+
+/!\ À noter que les joueurs auront accès à nombre limité de sorts à acheter par jour et ce sera personnalisé pour chaque joueur. 
+
+Nom de la pierre de magie  pour le farm : (TODO)
+Nom de la pierre de magie pour le mineur :(TODO)
+Nom de la pierre de magie pour le pvp : TODO
+
+Nom des pnjs : (TODO)
+
+Comment crafter la baguette magique/et ajouter un sort
+
+Sur empholia, il y aura trois types de baguettes et trois types de livres magiques. Il aura une baguette de tier 1, tier 2 et tier 3 . Ceux qui différencie les baguettes entre eux c’est leur puissance,l'efficacité   
+
+Le joueur devra utiliser un sort de tier 1 avec une baguette magique de tier 1. 
+
+
+Lorsque le joueur va récupérer un livre magique qui contient un sort d’un tier , il pourra le mettre sur la baguette magique du tier respectif en utilisant la table magique.
+
+–)Pour crafter la baguette magique, les joueurs auront besoin d’une potion de mana+ mithril (Custom item) + un stick. 
+
+Pour mettre un sort dans sa baguette magique , les joueurs auront besoin d’une table magique(modele 3D), du sort et sa baguette. 
+
+La table magique doit donner la possibilité aux joueurs de mettre le sort dans sa baguette et d'améliorer son sort contre des minerais (jade, mithril)
+
+
+
+La baguette magique de tier 1 a une capacité minimale de 1 sort et peut être améliorée pour avoir une capacité maximum de 3 sorts. La baguette magique de tier 2 a une capacité minimale de 1 sort et peut être améliorée pour avoir une capacité de  5 sorts. La baguette magique de tier 3 a une capacité minimale de 1 sort et peut être améliorée pour avoir 7 sorts .
+
+Différents sorts
+Les sorts seront sur un livre, chaque tier de sort ont un livre respectif. En gros il aura 3 livres pour trois Tiers (1,2 et 3)  
+
+Lorsque le joueur tient le livre dans sa main, il devra avoir les infos suivantes : 
+
+- Nom du sort
+Rareté : Commun/Rare/Épique 
+Tier : 1/2 ou 3
+
+
+Rareté signifie les chances pour obtenir un sort, pour un sort commun les joueurs auront 60% de chance d’avoir ce sort lorsqu'ils vont trade, pour un sort rare 35% et pour un sort Épique 5%
+
+✔  Répulsion : Permet de repousser tous les ennemis  aux alentour 
+Tier 1 : Repousse les ennemis de 5 blocs  (prix en mana ???)
+Tier 2 : Repousse les ennemis de 10 blocs (prix en mana ???)
+Tier 3 repousse les ennemis de 20 blocs(prix en mana ???)
+
+
+✔  Attraction : Permet d’attirer tous les ennemis aux alentour d’un rayon de 5 blocs
+
+Tier 1, Tier 2 et tier 3 feront la même chose 
+
+Possible de mettre un son de lorsqu’on entre dans le nether? ça se rapproche d’un son d'aspirateur.
+
+Levenus : Lance un projectile et si ça touche un joueur, il aura un effet de gravité
+
+Tier 1 = Lévitation pendant 10 secondes et dégâts de chute (coût de mana ??)
+Tier 2 = Lévitation pendant 15 secondes et dégât de chute augmenté de 30% (coût de mana??) 
+Tier 3 = Peut lancer trois projectiles, chaque projectile dont un effet de lévitation de 15 secondes et dégât de chute augmenté de 50% (coût de mana ??)
+
+
+✔ Freeze : Permet de geler tous les joueurs dans un certains rayon 
+
+
+Tier 1 = Gèle tous les joueurs dans un rayon 3 blocs (prix en mana ??)
+Tier 2 = Gèle tous les joueurs dans un rayon de 5 blocs(prix en mana ??)
+Tier 3 = Gèle tous les joueurs dans un rayon de 7 blocs (prix en mana ??)
+
+Freezus : permet de lancer un projectile  des projectiles qui feront des dégâts et qui vont geler le 
+joueur pendant un certains temps
+
+Tier 1 = Lance trois projectiles qui vont geler le joueur pendant 2 secondes et vont enlever 1 coeur
+
+Tier 2  = Lance 5 projectiles qui vont geler le joueur pendant 5 secondes et vont enlever 1 coeur et demi
+
+Tier 3 = Lance 10 projectiles qui vont geler le joueur pendant 5 secondes et vont enlever 2 cœurs . 
+
+✔ Eclairus : Électrocute un joueur
+
+
+Tier 1 = Lorsque l’éclair touche le joueur ça enlèvera 3 éclairs. 
+
+Tier 2 = Lorsque l’éclair touche le joueur ça enlèvera 4 coeurs 
+Tier 3 = Lorsque l’éclair touche le joueur ça enlever 5 coeurs
+
+
+%#%(#TODO) :  lance des éclair sur les ennemis dans un rayon de 5 blocs
+
+Lance des éclairs de façon random sur les ennemis d’un rayon 3, 5 à 7 blocs  qui enlèveront 3, 4 et 5 coeurs respectivement en fonction du tier
+
+
+244(#TODO): Permet d’entourer les joueurs d’un bloc
+
+Ce sera une sorte de mini trap que les joueurs pourront utiliser en warzone, et que le joueur qui se fait trap pourra détruire . 
+
+Tier 1 = Entoure le joueur de feuille pendant 10 secondes 
+
+
+
+
+
+Tier 2 = entoure le joueur de table de craft pendant 15 secondes 
+
+Tier 3 = Entoure le joueur d'obsidienne pendant 20 secondes (cooldown de 12h sur ce sort) 
+
+
+3242 (#todo)= Lance une boule de feu
+
+
+= Permet de lancer une grosse boule de feu
+Nécromancie = Permet de faire apparaître 10 zombie qui vont  combattre à nos cotter
+
+435 = Lance un projectile qui va geler le joueur pendant 3 secondes
+
+Switch = lorsque le joueur est touché ça interchange les positions.
+
+
+
+342 = Force de protection un cercle qui entoure les joueurs
+
+
+425 = Feu 
+
+
+Va lancé une sorte de projectile enflammé qui  fera des dégâts constant sur le joueur
+
+
+Disparition : Lorsque le joueur utilise ce sort, il a un effet d’invisibilité 
+
+Tier 1 = 10 secondes 
+
+Tier 2 = 25secondes 
+
+Tier 3 = 1 minutes
+
+
+
