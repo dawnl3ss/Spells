@@ -19,9 +19,6 @@ abstract class Spell implements Tiers {
     /** @var int $tier */
     private int $tier;
 
-    /** @var int $cost */
-    private int $cost;
-
     public function __construct(string $name, int $id, int $tier = 1){
         $this->name = $name;
         $this->id = $id;

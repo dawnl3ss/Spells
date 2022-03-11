@@ -24,6 +24,7 @@ class Test extends PluginsCommand {
 
             $entity = new TradeNPC(Location::fromObject($player->getLocation(), $player->getWorld()));
             $entity->spawnToAll();
+            //TradeNPC::setTrades();
         }
     }
 }

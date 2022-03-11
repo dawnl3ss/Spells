@@ -2,7 +2,7 @@
 
 namespace neptune\spells\spell\type;
 
-use neptune\spells\event\ManaReceiveEvent;
+use neptune\spells\event\ManaLoseEvent;
 use neptune\spells\network\session\SessionManager;
 use neptune\spells\spell\Spell;
 use neptune\spells\utils\message\Message;
@@ -39,5 +39,5 @@ class Attraction extends Spell {
     /**
      * @param Player $player
      */
-    public function reduceMana(Player $player) : void { (new ManaReceiveEvent(-$this->cost, $player))->call(); }
+    public function reduceMana(Player $player) : void { (new ManaLoseEvent($this->cost, $player))->call(); }
 }

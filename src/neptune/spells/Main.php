@@ -2,6 +2,7 @@
 
 namespace neptune\spells;
 
+use neptune\spells\utils\DateManager;
 use neptune\spells\utils\Loader;
 use pocketmine\plugin\PluginBase;
 
@@ -15,6 +16,7 @@ class Main extends PluginBase {
 
     public function onEnable() : void {
         self::$instance = $this;
+        DateManager::setCurrentDay();
 
         Loader::__init_listeners();
         Loader::__init_entities();

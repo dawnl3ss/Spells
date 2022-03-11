@@ -13,6 +13,8 @@ interface Dictionary {
         "PLAYER_UNFREEZE_POPUP" => "§aVous n'êtes plus gelé !",
 
         "SPELL_NPC_SPAWN_SUCCESS" => "§aVous avez bien fait spawn le NPC des sorts.",
+        "SPELL_BUY_SUCCES" => "§aVous avez bien acheté le sort % de tier % !",
+        "SPELL_BUY_DENIED" => "§cVous n'avez pas assez d'ingredients pour acheter ce sort !",
 
         "COMMAND_NOT_ALLOWED" => "§cVous n'êtes pas autorisé à effectuer cette commande."
     ];

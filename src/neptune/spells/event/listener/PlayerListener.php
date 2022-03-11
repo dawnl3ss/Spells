@@ -2,7 +2,6 @@
 
 namespace neptune\spells\event\listener;
 
-use neptune\spells\event\ManaReceiveEvent;
 use neptune\spells\network\session\SessionManager;
 use neptune\spells\utils\Cooldown;
 use pocketmine\event\Listener;
@@ -40,7 +39,6 @@ class PlayerListener implements Listener {
                     $player->sendMessage("switch");*/
 
                     SessionManager::getSession($player)->getSpell()->onActivate($player);
-                    $player->sendMessage("activate");
                 }
             }
         }
