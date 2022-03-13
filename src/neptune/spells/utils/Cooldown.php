@@ -15,7 +15,7 @@ class Cooldown {
      * @return bool
      */
     public static function canInteract(Player $player) : bool {
-        if (isset(self::$interactCooldown[strtolower($player->getName())]) and time() - self::$interactCooldown[strtolower($player->getName())] < 2) {
+        if (isset(self::$interactCooldown[strtolower($player->getName())]) and time() - self::$interactCooldown[strtolower($player->getName())] < 1) {
             return false;
         } else {
             self::$interactCooldown[strtolower($player->getName())] = time();

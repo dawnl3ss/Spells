@@ -19,10 +19,14 @@ abstract class Spell implements Tiers {
     /** @var int $tier */
     private int $tier;
 
-    public function __construct(string $name, int $id, int $tier = 1){
+    /** @var NeededItems $neededItems */
+    private NeededItems $neededItems;
+
+    public function __construct(string $name, int $id, int $tier, NeededItems $neededItems){
         $this->name = $name;
         $this->id = $id;
         $this->tier = $tier;
+        $this->neededItems = $neededItems;
     }
 
     /**
@@ -41,9 +45,19 @@ abstract class Spell implements Tiers {
     public function getTier() : int { return $this->tier; }
 
     /**
+     * @return NeededItems
+     */
+    public function getNeededItems() : NeededItems { return $this->neededItems; }
+
+    /**
      * @return array
      */
     public function toArray() : array { return [$this->id, $this->tier, $this->name]; }
+
+    /**
+     * @return int
+     */
+    public function getNextId() : int { return $this->id === count(self::ALL_SPELLS) - 1 ? 0 : $this->id + 1; }
 
     /**
      * @param Player $player
@@ -58,13 +72,13 @@ abstract class Spell implements Tiers {
     public static function create(int $id, int $tier) : Spell {
         switch ($id){
             case self::SPELL_REPULSION["id"]:
-                return new Repulsion($tier);
+                return new Repulsion($tier, new NeededItems($tier));
             case self::SPELL_ATTRACTION["id"]:
-                return new Attraction($tier);
+                return new Attraction($tier, new NeededItems($tier));
             case self::SPELL_FREEZE["id"]:
-                return new Freeze($tier);
+                return new Freeze($tier, new NeededItems($tier));
             case self::SPELL_ECLAIRUS["id"]:
-                return new Eclairus($tier);
+                return new Eclairus($tier, new NeededItems($tier));
         }
     }
 }

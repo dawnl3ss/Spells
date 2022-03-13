@@ -39,4 +39,5 @@ class SpellChangeEvent extends PluginEvent {
      * @return Spell
      */
     public function getNewSpell() : Spell { return $this->newSpell; }
+
 }

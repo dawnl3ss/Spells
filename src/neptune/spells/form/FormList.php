@@ -3,7 +3,7 @@
 namespace neptune\spells\form;
 
 use neptune\spells\entity\TradeNPC;
-use neptune\spells\event\ManaReceiveEvent;
+use neptune\spells\event\SpellChangeEvent;
 use neptune\spells\network\session\SessionManager;
 use neptune\spells\spell\Spell;
 use neptune\spells\utils\message\Message;
@@ -38,10 +38,13 @@ class FormList {
             switch ($data) {
                 case 0:
                     self::sendTradeNPCForm($player);
+                    break;
                 case 1:
-                    $session = SessionManager::getSession($player);
-                    $session->setSpell($spell);
-                    $player->sendMessage(Message::get("SPELL_BUY_SUCCES", [$spell->getName(), $spell->getTier()]));
+                    if ($spell->getNeededItems()->has($player)){
+                        $spell->getNeededItems()->removeItems($player);
+                        (new SpellChangeEvent(SessionManager::getSession($player)->getSpell(), $spell, $player))->call();
+                        $player->sendMessage(Message::get("SPELL_BUY_SUCCES", [$spell->getName(), $spell->getTier()]));
+                    } else $player->sendMessage(Message::get("SPELL_BUY_DENIED", []));
                     break;
             }
         });

@@ -8,6 +8,8 @@ use neptune\spells\network\session\SessionManager;
 use pocketmine\command\CommandSender;
 use pocketmine\command\defaults\PluginsCommand;
 use pocketmine\entity\Location;
+use pocketmine\item\ItemFactory;
+use pocketmine\item\ItemIds;
 use pocketmine\player\Player;
 
 class Test extends PluginsCommand {
@@ -22,9 +24,9 @@ class Test extends PluginsCommand {
             $player->sendMessage("Spell : " . Serializer::jsonSerialize(SessionManager::getSession($player)->getSpell()->toArray()));
             $player->sendMessage("Mana : " . SessionManager::getSession($player)->getMana());
 
-            $entity = new TradeNPC(Location::fromObject($player->getLocation(), $player->getWorld()));
+            /*$entity = new TradeNPC(Location::fromObject($player->getLocation(), $player->getWorld()));
             $entity->spawnToAll();
-            //TradeNPC::setTrades();
+            TradeNPC::setTrades();*/
         }
     }
 }
