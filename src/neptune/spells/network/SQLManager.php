@@ -19,7 +19,7 @@ class SQLManager {
      * @return mysqli
      */
     public static function connectSQL(string $db = null) : mysqli {
-        return new mysqli("p:188.165.33.34", "neptune", "se0z0UEMTp@L3wx5", $db);
+        return new mysqli("", "", "", $db);
     }
 
     /**
