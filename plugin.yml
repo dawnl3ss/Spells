@@ -1,6 +1,6 @@
 author: neptune
 name: SpellSystem
 main: neptune\spells\Main
-description: "Magic, spells plugin for Shoko by neptune"
+description: "Magic, spells plugin for Shoko by neptune [abandonned]"
 version: 1.0.0
 api: 4.0.0
